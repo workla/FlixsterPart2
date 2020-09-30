@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#959f9f</color> //used to be 6200EE
+    <color name="colorPrimaryDark">#686f6f</color>  //used to be 3700B3
+    <color name="colorAccent">#AE8D94</color>  //used to be 03DAC5, C2AFC6
+    //contrast neutral color palette from https://www.schemecolor.com/contrast-neutrals.php
+    <color name="khaki">#C1B391</color>
+    <color name="darkSilver">#79666B</color>
+    <color name="outerSpace">#434452</color>
+    <color name="spanishGray">#959F9F</color>
+    <color name="darkSpanishGray">#686F6F</color>
+    <color name="darkVanilla">#C3BEAB</color>
+    <color name="grullo">#A29585</color>
+    <color name="lightVanilla">#E3E1D8</color>
+
+
+</resources>

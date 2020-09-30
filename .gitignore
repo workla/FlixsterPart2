@@ -1,0 +1,10 @@
+"**/*/res/values/secrets.xml" 
+.gradle/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/modules/
+.idea/workspace.xml
+app/src/main/res/values/secrets.xml
+local.properties
+
