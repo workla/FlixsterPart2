@@ -7,7 +7,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 #### REQUIRED (10pts)
 
 - [x] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
-- [ ] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
+- [x] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
 
 #### BONUS
 
@@ -20,15 +20,24 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
+Here's a walkthrough of implemented user stories I did during week 2 of FLixter work:
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+The first gif shows the move from the main screen to the movie detail screen with YoutubePlayerView working
+<img src='Walkthroughpart2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+The second gif shows implementing the portrait/landscape flipping orientation stretch story from part 1
+<img src='portraitLandscapeFlix.gif' title='Flipping Orientation' width='' alt='Flipping Orientation' />
 
 ### Notes
 
 Describe any challenges encountered while building the app:
+
 I definitely utilized the git rollback functionality this week, as I had inadvertantly created a blank activity instead of an empty activity when creating my detail view.  It ended up creating compiler errors, and was easiest to simply roll back to the previous save and restart, using the correct empty activity.
-I had fun this week creating a color them and updating the UI with it.  I also went back and added some stretch stories from last week, such as the different views for different orientations, which was surprisingly easy.  I would consider this week's adds more work than last week, but they made more sense, and I really feel like I understand the concepts this week.
+
+I had fun this week creating a color theme and updating the UI with it.  I also went back and added some stretch stories from last week, such as the different views for different orientations, which was surprisingly easy.  I would consider this week's adds more work than last week, but they made more sense, and I really feel like I understand the concepts this week.
+
+I also went back and created a separate untracked xml for the API keys as mentioned in some of the reading under the resources tab.  I had trouble with the previous repository containing older files with the API keys hard-coded and present in plain text in the previous commit files, so I made that repository private and created a new repository with no hard-coded API keys.
+
 
 ## Open-source libraries used
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
